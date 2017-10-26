@@ -7,7 +7,6 @@ layout: default
   <div class="col-two blog-cols">
     <div class="col col-aside blog-recent">
       <h4>Recent Posts</h4>
-      {% include _recent_posts.html %}
       <ul class="blog-title-list">
         {% for post in site.posts limit:5 %}
           <li>
