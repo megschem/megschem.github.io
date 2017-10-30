@@ -457,7 +457,7 @@ flex: 0 1 20em;
   padding-top: 2em;
 }
 
-/*MEDIA QUERIES*/
+/* MEDIA QUERIES */
 @media (max-width: 800px) {
   html {
     box-shadow: none;
@@ -498,6 +498,12 @@ flex: 0 1 20em;
   }
 
   /* BLOG STYLES */
+  .blog-recent {
+    display: none;
+  }
+  .blog-previews {
+    padding: 0;
+  }
     .post-aside {
     display: none;
   }
